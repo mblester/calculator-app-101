@@ -83,4 +83,8 @@ const equals = () => {
     default: "Choose an operation"
   }
 }
+const clear = () => {
+  document.getElementById("result").innerHTML = ""
+  console.log("hello")
+}
 
